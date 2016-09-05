@@ -3,4 +3,5 @@
 @-moz-document domain("www.espn.com") {
   #global-header { position: relative; }
   div#global-viewport div#header-wrapper { position: relative; }
+  [data-pagetype="gamepackage"] .game-strip { position: absolute; }
 }
